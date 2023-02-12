@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="upper-con" id="upr-con">
+    <h1>Metric/Imperial Unit Conversion </h1>
+    <input id="input-el" value="10" autofocus>
+    <div class="button-cl">
+      <button id="inp-btn" onclick="convert()">CONVERT</button>
+    </div>
+  </div>
+  <div class="display">
+    <div class="length box">
+      <h3>Length (Meter/Feet)</h3>
+      <p id="length_el"> meter =  feets |   feets =  meter</p>
+    </div>
+    <div class="volume box">
+      <h3>Volume (Liters/Gallons)</h3>
+       <p id="volume_el"></p>
+    </div>
+    <div class="mass box">
+      <h3>Mass (Kilograms/Pounds)</h3>
+       <p id="mass_el"></p>
+    </div>
+  </div>
+
+  <script src="script.js">
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

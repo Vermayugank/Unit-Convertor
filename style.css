@@ -1,0 +1,42 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+.upper-con{
+  background-color: #0369A1;
+  padding: 10px;
+  text-align: center;
+  height:35%;
+  margin-top: 0;
+}
+input{
+  height:4rem;
+  width: 4rem;
+  background-color: #0369A1;
+  border:1px solid white;
+  color: white;
+  text-align: center;
+  size: 20px;
+  font-size: 20;
+  font-size: 3rem;
+}
+button{
+  background-color: white;
+  padding:7px;
+  border-radius: 5px;
+  border: none;
+  margin-top:15px;
+  
+}
+.display{
+  text-align: center;
+  padding:10px;
+  background-color: #9f3232;
+}
+
+.box{
+  background-color: white;
+  padding: 2rem;
+  margin:1rem;
+  border-radius:5px
+}
